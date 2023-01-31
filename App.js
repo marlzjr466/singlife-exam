@@ -90,7 +90,7 @@ export default function App() {
             pn: plateNum,
             size: vehicleSize,
             parktime: {
-                start: 1675123140000,
+                start: new Date().getTime(),
                 end: 0
             }
         }
